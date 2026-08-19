@@ -1,0 +1,407 @@
+* {
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-type-second:hover {
+    border: 2px solid black;
+
+}
+.border-first:hover {
+    border: 2px solid white;
+}
+.border:hover {
+    border: 2px solid orange;
+}
+
+.nav-bar-main  {
+    height: 120px;
+    width: 100%;
+    background-color: #f85606;
+    position: fixed;
+    top: 0px;
+}
+
+.nav-bar1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.option {
+    height: 25px;
+    width: 145px;
+    color: white;
+    font-size: 0.75rem;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    margin-right: 7px;
+
+}
+
+/* for nav-bar2 */
+.nav-bar2 {
+    height: 75px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar2-logo {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.logo {
+    height: 40px;
+     width: 150px;
+    background-image: url(daraz-logo.png);
+    background-size: cover;
+}
+
+
+.nav-bar2 {
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    /* background-color: purple; */
+    align-items: center;
+    margin-top: 20px;
+}
+.search-bar {
+    height: 50px;
+    width: 1000px;
+    /* background-color: blanchedalmond; */
+    color: black;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    height: 40px;
+    width: 100%;
+    margin-left: 50px;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-logo {
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe1d2;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cart-logo {
+    height: 40px;
+    width: 60px;
+    font-size: 2rem;
+    color: white;
+    /* background-color: yellow; */
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+}
+
+
+/* for hero section */
+
+.hero-section-first {
+    height: 500px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-center-first {
+    height: 500px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+ 
+.hero-image1 {
+    height: 500px;
+    width: 70%;
+    background-image: url(hero-section1.jpg);
+    background-size: cover;
+}
+
+/* for hero section second  */
+.hero-section-second {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-center-second {
+    height: 140px;
+    width: 85%;
+    background-image: url(hero-section2.jpg);
+    background-size: cover;
+}
+
+/* for shopping seciton  */
+
+.main-content {
+    height: 396px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    height: 340px;
+    width: 90%;
+    background-color:#f85606 ;
+}
+
+.box-container {
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 25px;
+}
+.boxes-container {
+    height: 300px;
+    width: 200px;
+    background-color: yellow;
+    
+}
+.box {
+    height: 200px;
+  
+    /* background-color: pink; */
+    border: 2px solid black;
+    background-size: cover;
+}
+
+.topic {
+    height: 15px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 15px;
+    /* background-color: pink; */
+}
+
+/* for the image information  */
+
+.image-info {
+    height: 96.8px;
+    background-color: rgb(131, 173, 209);
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.about-product {
+    /* text-align: center; */
+    height: 35px;
+    /* background-color: red; */
+}
+.product-price {
+    color: #b05007;
+    font-weight: 700;
+}
+
+.net-price {
+    text-decoration: line-through;
+}
+
+/* codes for footer area  */
+.footer {
+    height: 450px;
+    background-color: #f85606;
+}
+
+.footer-panel-one{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+ul a {
+    display: block;
+}
+
+.logos {
+    height: 200px;
+    width: 670px;
+    /* background-color: beige; */
+    display: flex;
+    margin-top: 150px;
+}
+
+.logo-panel-one {
+    height: 75px;
+    width: 370px;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-logo {
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    /* background-color: red; */
+    
+}
+ 
+.paragraph p {
+    display: block;
+    margin-right: 30px;
+}
+
+.p-one {
+    font-size: 0.875rem;
+}
+
+.p-two {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.logo-panel-two {
+    height: 75px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: skyblue; */
+    /* border: 2px solid black; */
+}
+
+.appstore-logo {
+    height: 42px;
+    width: 126px;
+    background-size: cover;
+    /* background-color: green; */
+    border-radius: 6px;
+}
+
+.google-playstore-logo {
+    height: 42px;
+    width: 126px;
+    background-size: cover;
+    /* background-color: green; */
+    border-radius: 6px
+}
+.app-gallery-logo  {
+    height: 42px;
+    width: 126px;
+    background-size: cover;
+    /* background-color: green; */
+    border-radius: 6px
+}
+
+
+.footer-two {
+    height: 190px;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+}
+.payment-apps {
+    font-weight: 600;
+}
+
+.footer-two-inner {
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.payment-method {
+    height: 100px;
+    width: 300px;
+    /* background-color: purple; */
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}
+
+.payment-logos {
+    height: 28px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cash-on-delivery {
+    height: 28px;
+    width: 46.33px;
+    background-size: cover;
+}
+
+.visa {
+    height: 28px;
+    width: 46.8px;
+    background-size: cover;
+}
+
+.master-card {
+    height: 28px;
+    width: 36.75px;
+    background-size: cover;
+}
+
+.esewa {
+    height: 28px;
+    width: 48px;
+    background-size: cover;
+}
+
+.khalti {
+    height: 28px;
+    width: 50.71px;
+    background-size: cover;
+}
+
+.verify-detail {
+    height: 100px;
+    width: 300px;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}
+
+.verified-by {
+    font-weight: 700;
+}
+
+.verified-logo {
+    height: 41px;
+    width: 73px;
+    margin-top: 10px;
+}
